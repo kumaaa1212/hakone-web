@@ -1,3 +1,4 @@
+import { v4 as uuidv4 } from 'uuid'
 export const MenuData = [
   {
     title:'HOME',
@@ -92,28 +93,28 @@ export const questioncontent =[
   },
 ]
 export const galleryimg1 =[
-    '/gallery01.jpg',
-    '/gallery02.jpg',
-    '/gallery03.jpg',
-    '/gallery04.jpg',
-    '/gallery05.jpg',
-    '/gallery06.jpg',
+  {id: uuidv4(), name:'/gallery01.jpg'},
+  {id: uuidv4(), name:'/gallery02.jpg'},
+  {id: uuidv4(), name:'/gallery03.jpg'},
+  {id: uuidv4(), name:'/gallery04.jpg'},
+  {id: uuidv4(), name:'/gallery05.jpg'},
+  {id: uuidv4(), name:'/gallery06.jpg'},
 ];
 export const galleryimg2 =[
-  '/gallery7.jpg',
-  '/gallery09.jpg',
+  {id: uuidv4(), name:'/gallery7.jpg'},
+  {id: uuidv4(), name:'/gallery09.jpg'},
  ]
-export const galleryimg3 =[
-  '/gallery10.jpg',
+export const galleryimg3 =[ 
+  {id: uuidv4(), name:'/gallery10.jpg'},
  ]
 export const subimages =[
-  '/subimg6.jpg',
-  '/subimg7.jpg',
-  '/subimg8.jpg',
-  '/subimg9.jpg',
-  '/subimg10.jpg',
-  '/subimg2.jpg',
-  '/subimg4.jpg',
-  '/subimg5.jpg',
+  {id: uuidv4(), name:'/subimg6.jpg'},
+  {id: uuidv4(), name:'/subimg7.jpg'},
+  {id: uuidv4(), name:'/subimg8.jpg'},
+  {id: uuidv4(), name:'/subimg9.jpg'},
+  {id: uuidv4(), name:'/subimg10.jpg'},
+  {id: uuidv4(), name:'/subimg2.jpg'},
+  {id: uuidv4(), name:'/subimg4.jpg'},
+  {id: uuidv4(), name:'/subimg5.jpg'},
 ]
 
