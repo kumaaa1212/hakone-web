@@ -5,7 +5,7 @@ const Curse = () => {
       <h1 className='text-center text-4xl my-16'>体験コース</h1>
       <div className='grid grid-cols-2 gap-4'>
         {ExperienceData.map((data) => (
-          <div>
+          <div key={data.title}>
             <p className='text-2xl text-center font-bold mb-4'>
               {data.title}
             </p>

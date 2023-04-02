@@ -22,7 +22,7 @@ const Question = () => {
   return (
     <div className="mb-32">
       {state.map((data) =>(
-        <div className="mt-12">
+        <div className="mt-12" key={data.id}>
           <p onClick={() =>handleshow(data.id)} className='text-2xl cursor-pointer select-none'>{data.Q}</p>
           <p  className={data.open ? 'openlist' : 'closelist'} >{data.A}
           </p>
